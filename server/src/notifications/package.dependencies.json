@@ -1,0 +1,17 @@
+{
+  "description": "Add these dependencies to your server/package.json",
+  "dependencies": {
+    "expo-server-sdk": "^3.7.0",
+    "twilio": "^4.20.0",
+    "@sendgrid/mail": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "notes": {
+    "expo-server-sdk": "Push notifications for iOS (APNs) and Android (FCM) via Expo",
+    "twilio": "SMS notifications via Twilio API",
+    "@sendgrid/mail": "Email notifications via SendGrid API"
+  },
+  "installation": "npm install expo-server-sdk twilio @sendgrid/mail"
+}
