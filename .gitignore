@@ -51,3 +51,18 @@ android/app/build
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Environment variables with secrets
+**/.env
+**/.env.local
+**/.env.*.local
+.env
+.env.local
+.env.production
+server/.env
+apps/mobile/.env
+apps/portal/.env.local
+supabase/deploy-direct.js
+supabase/deploy-migrations.sh
+supabase/deploy.mjs
+supabase/simple-deploy.sh
